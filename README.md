@@ -88,10 +88,10 @@ After finding the specific range, it uses the binary search technique to find th
 
 # Installation
 
-git clone https://github.com/HarutXh/Svarto.git
-git checkout sort_and_searching_algorithms
-git branch
-git status
+- git clone https://github.com/HarutXh/Svarto.git
+- git checkout sort_and_searching_algorithms
+- git branch
+- git status
 
 # Usage
 
