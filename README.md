@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Searching and sort algorithms
 Searching algorithms are used to look for and retrieve the elements used in any data structure from that data structure itself. Sorting algorithms help arrange a list of data or an array of data into a particular order.
 
@@ -117,3 +118,10 @@ Don't forget to give the project a star! Thanks again!
 
 
 
+=======
+# Svarto
+Creating projects in Python programming language.
+
+# Installation
+git clone https://github.com/HarutXh/Svarto.git
+>>>>>>> 54da45516e74e7c79c9d229f6d18724456e485c7
