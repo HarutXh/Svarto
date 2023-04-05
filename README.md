@@ -43,18 +43,3 @@ Don't forget to give the project a star! Thanks again!
 3. Commit your Changes (`git commit -m 'Added map_and_filter_func'`)
 4. Push to the Branch (`git push origin map_and_filter_func`)
 5. Open a Pull Request
-
-
-
-
-
-
-
-
-=======
-# Svarto
-Creating projects in Python programming language.
-
-# Installation
-git clone https://github.com/HarutXh/Svarto.git
->>>>>>> 54da45516e74e7c79c9d229f6d18724456e485c7
