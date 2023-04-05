@@ -1,8 +1,5 @@
 def vowels(char):
-    if char in "aeiouAEIOU":
-        return True
-    else:
-        return False
+    return char in "aeiouAEIOU"
 
 
 string = "I love Svarto"

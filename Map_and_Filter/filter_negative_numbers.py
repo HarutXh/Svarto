@@ -1,8 +1,5 @@
 def is_negative(n):
-    if n < 0:
-        return True
-    else:
-        return False
+    return n < 0
 
 
 numbers = (-2, 5, 8, -23, -4)
