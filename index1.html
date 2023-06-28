@@ -1,0 +1,1071 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="60">
+    <title>HTML Tag Attributes</title>
+</head>
+
+<body>
+    <h1>HTML tag attribute</h1>
+    <h2>HTML accept attribute</h2>
+    <form>
+        <input type="file" name="pic" accept="image/*">
+        <input type="submit">
+    </form>
+    <h2>HTML accept-charset Attribute</h2>
+    <form accept-charset="ISO-8859-1">
+        First name: <input type="text" name="fname"><br>
+        Last name: <input type="text" name="lname"><br>
+        <input type="submit" value="Submit">
+    </form>
+    <h2>HTML accesskey Attribute</h2>
+    <a href="https://www.w3schools.com/html" accesskey="h">HTML5</a><br>
+    <a href="https://www.w3schools.com/css" accesskey="c">CSS3</a>
+    <h2>HTML action Attribute</h2>
+    <form action="https://www.w3schools.com/html" method="get">
+        First name: <input type="text" name="fname"><br>
+        Last name: <input type="text" name="lname"><br>
+        <input type="submit" value="Submit">
+    </form>
+    <h2>HTML alt, coords, shape, usemap, width Attribute</h2>
+    <img src="C:\Users\Admin\Desktop\Python\Homeworks\Nkarner\workspace.jpg" alt="Workspace" usemap="#workmap"
+        width="400" height="379">
+
+    <map name="workmap">
+        <area shape="rect" coords="34,44,270,350" alt="Computer" href="https://en.wikipedia.org/wiki/Computer">
+        <area shape="rect" coords="290,172,333,250" alt="Phone" href="https://en.wikipedia.org/wiki/Mobile_phone">
+        <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="https://en.wikipedia.org/wiki/Coffee">
+    </map>
+    <h2>HTML async attribute</h2>
+    <p>Hello World!</p>
+    <script src="demo_async.js" async></script>
+    <h2>HTML autocomplete attribute</h2>
+    <form action="https://www.w3schools.com/html" autocomplete="on">
+        First name:<input type="text" name="fname"><br>
+        Last name: <input type="text" name="lname"><br>
+        E-mail: <input type="email" name="email" autocomplete="off"><br>
+        <input type="submit">
+    </form>
+    <h2>HTML autofocus attribute</h2>
+    <button type="button" autofocus>Click Me!</button>
+    <form>
+        First name: <input type="text" name="fname" autofocus><br>
+        Last name: <input type="text" name="lname"><br>
+        <input type="submit">
+    </form>
+    <textarea autofocus>
+        At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies.
+    </textarea>
+    <h2>HTML autoplay and controls attribute</h2>
+    <audio controls autoplay>
+        <source src="C:\Users\Admin\Desktop\Python\Homeworks\Audio\Giulio Cercato - Dopamine.mp3" type="audio/mpeg">
+    </audio>
+    <video controls autoplay>
+        <source src="C:\Users\Admin\Desktop\Python\Homeworks\Video\friday.mp4" type="video/mp4">
+    </video>
+    <h2>HTML meta attribute</h2>
+    <p>When used by the meta element, the charset attribute specifies the character encoding for the HTML document.<br>
+
+        When used by the script element, the charset attribute specifies the character encoding used in an external
+        script file.<br>
+
+        The HTML5 specification encourages web developers to use the UTF-8 character set, which covers almost all of the
+        characters and symbols in the world!<br>
+    </p>
+    <script src="demo_async.js" charset="UTF-8"></script>
+    <h2>HTML checked attribute</h2>
+    <form>
+        <input type="checkbox" name="vehicle" value="Bike"> I have a bike<br>
+        <input type="checkbox" name="vehicle" value="Car" checked> I have a car<br>
+        <input type="submit" value="Submit">
+    </form>
+    <h2>HTML cite attribute</h2>
+    <blockquote cite="http://www.worldwildlife.org/who/index.html">
+        For 50 years, WWF has been protecting the future of nature. The world's leading conservation organization, WWF
+        works in 100 countries and is supported by 1.2 million members in the United States and close to 5 million
+        globally. WWF's unique way of working combines global reach with a foundation in science, involves action at
+        every level from local to global, and ensures the delivery of innovative solutions that meet the needs of both
+        people and nature.
+    </blockquote>
+    <p><del cite="del_demo_cite.htm">This text has been deleted</del></p>
+    <p>This is a text.
+        <ins cite="why_inserted.htm">This is an inserted text.</ins>
+    </p>
+    <p>WWF's goal is to:
+        <q cite="http://www.wwf.org">
+            Build a future where people live in harmony with nature.</q>
+        We hope they succeed.
+    </p>
+    <h2>HTML class attribute</h2>
+    <style>
+        h1.intro {
+            color: blue;
+        }
+
+        p.important {
+            color: green;
+        }
+    </style>
+    <h1 class="intro">Header 1</h1>
+    <p>A paragraph.</p>
+    <p class="important">Note that this is an important paragraph. :)</p>
+    <h2>HTML cols, rows attribute</h2>
+    <textarea rows="4" cols="50">
+        At w3schools.com you will learn how to make a website. We offer free tutorials in all web development technologies.
+    </textarea>
+    <h2>HTML colspan attribute</h2>
+    <table border="1px">
+        <tr>
+            <th>Month</th>
+            <th>Savings</th>
+        </tr>
+        <tr>
+            <td>January</td>
+            <td>$100</td>
+        </tr>
+        <tr>
+            <td>February</td>
+            <td>$100</td>
+        </tr>
+        <tr>
+            <td colspan="2">Sum: $180</td>
+        </tr>
+    </table>
+    <h2>HTML content attribute</h2>
+    <p>The content attribute gives the value associated with the http-equiv or name attribute.</p>
+    <h2>HTML contenteditable attribute</h2>
+    <p contenteditable="true">This is an editable paragraph.</p>
+    <h2>HTML data attribute</h2>
+    <object data="C:\Users\Admin\Desktop\Python\Homeworks\Audio\Giulio Cercato - Dopamine.mp3">
+    </object>
+    <h2>HTML data-* attribute</h2>
+    <ul>
+        <li data-animal-type="bird">Owl</li>
+        <li data-animal-type="fish">Salmon</li>
+        <li data-animal-type="spider">Tarantula</li>
+    </ul>
+    <h2>HTML datetime attribute</h2>
+    <p>
+        <del datetime="2015-11-15T22:55:03Z">This text has been deleted</del>
+    </p>
+    <p>This is a text.
+        <ins datetime="2015-09-15T22:55:03Z">This is an inserted text.</ins>
+    </p>
+    <p>I have a date on <time datetime="2017-02-14">Valentines day</time>.</p>
+    <h2>HTML defer attribute</h2>
+    <script src="demo_async.js" async defer></script>
+    <h2>HTML dir attribute</h2>
+    <p dir="rtl">Write this text right-to-left!</p>
+    <h2>HTML disabled attribute</h2>
+    <button type="button" disabled>Click Me!</button>
+    <h2>HTML for, form attribute</h2>
+    <form>
+        <input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">HTML</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">CSS</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">JavaScript</label><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <h2>HTML headers, id attribute</h2>
+    <table border="1px">
+        <tr>
+            <th id="name">Name</th>
+            <th id="email">Email</th>
+            <th id="phone">Phone</th>
+            <th id="addr">Address</th>
+        </tr>
+        <tr>
+            <td headers="name">John Doe</td>
+            <td headers="email">someone@example.com</td>
+            <td headers="phone">+45342323</td>
+            <td headers="addr">Rosevn 56,4300 Sandnes,Norway</td>
+        </tr>
+    </table>
+    <h2>HTML height, width, href attribute</h2>
+    <img src="C:\Users\Admin\Desktop\Python\Homeworks\Nkarner\workspace.jpg" alt="Workspace" usemap="#workmap"
+        width="400" height="379">
+
+    <map name="workmap">
+        <area shape="rect" coords="34,44,270,350" alt="Computer" href="https://en.wikipedia.org/wiki/Computer">
+        <area shape="rect" coords="290,172,333,250" alt="Phone" href="https://en.wikipedia.org/wiki/Mobile_phone">
+        <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="https://en.wikipedia.org/wiki/Coffee">
+    </map>
+    <h2>HTML hidden attribute</h2>
+    <p hidden>This paragraph should be hidden.</p>
+    <p>This is a visible paragraph.</p>
+    <h2>HTML high, min, low, max, value attribute</h2>
+    <meter min="0" low="40" high="90" max="100" value="95"></meter>
+    <h2>HTML hreflang attribute</h2>
+    <a href="https://www.w3schools.com" hreflang="en">W3Schools</a>
+    <h2>HTML lang attribute</h2>
+    <p lang="fr">Ceci est un paragraphe.</p>
+    <h2>HTML list, get attribute</h2>
+    <form method="get">
+        <label for="browser">Choose your browser from the list:</label>
+        <input list="browsers" name="browser" id="browser">
+        <datalist id="browsers">
+            <option value="Edge">
+            <option value="Firefox">
+            <option value="Chrome">
+            <option value="Opera">
+            <option value="Safari">
+        </datalist>
+        <input type="submit">
+    </form>
+    <h2>HTML loop attribute</h2>
+    <audio controls autoplay loop>
+        <source src="C:\Users\Admin\Desktop\Python\Homeworks\Audio\Giulio Cercato - Dopamine.mp3" type="audio/mpeg">
+    </audio>
+    <h2>HTML maxlength attribute</h2>
+    <form>
+        Username: <input type="text" name="usrname" maxlength="10"><br>
+        <input type="submit" value="Submit">
+    </form>
+    <textarea maxlength="50">
+    Enter text here...
+    </textarea>
+    <h2>HTML media attribute</h2>
+    <a href="att_a_media.asp?output=print" media="print and (resolution:300dpi)">Open media attribute page for print</a>
+    <h2>HTML multiple, name attribute</h2>
+    <form>
+        <label for="cars">Choose a car:</label>
+        <select name="cars" id="cars" multiple>
+            <option value="volvo">Volvo</option>
+            <option value="saab">Saab</option>
+            <option value="opel">Opel</option>
+            <option value="audi">Audi</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <h2>HTML muted attribute</h2>
+    <audio muted>
+        <source src="C:\Users\Admin\Desktop\Python\Homeworks\Audio\Giulio Cercato - Dopamine.mp3" type="audio/mpeg">
+    </audio>
+    <h2>HTML onafterprint Attribute</h2>
+
+    <body onafterprint="myFunction()">
+
+        <h1>Try to print this document</h1>
+        <p><b>Tip:</b> Keyboard shortcuts, such as Ctrl+P sets the page to print.</p>
+        <p><b>Note:</b> The onafterprint event is not supported in Safari and Opera.</p>
+        <p><b>Note:</b> In IE, the onafterprint event occurs before the print dialogue box, instead of after.</p>
+
+        <script>
+            function myFunction() {
+                alert("This document is now being printed");
+            }
+        </script>
+    </body>
+    <h2>HTML onbeforeprint Attribute</h2>
+
+    <body onbeforeprint="myFunction()">
+
+        <h1>Try to print this document</h1>
+        <p><b>Tip:</b> Keyboard shortcuts, such as Ctrl+P sets the page to print.</p>
+        <p><b>Note:</b> The onbeforeprint event is not supported in Safari and Opera.</p>
+
+        <script>
+            function myFunction() {
+                alert("You are about to print this document!");
+            }
+        </script>
+    </body>
+    <h2>HTML onbeforeunload Attribute</h2>
+
+    <body onbeforeunload="return myFunction()">
+
+        <p>Close this window, press F5 or click on the link below to invoke the onbeforeunload event.</p>
+
+        <a href="https://www.w3schools.com">Click here to go to w3schools.com</a>
+
+        <script>
+            function myFunction() {
+                return "Write something clever here...";
+            }
+        </script>
+    </body>
+    <h2>HTML onblur Attribute</h2>
+    Enter your name: <input type="text" name="fname" id="fname" onblur="myFunction()">
+
+    <p>When you leave the input field, a function is triggered which transforms the input text to upper case.</p>
+
+    <script>
+        function myFunction() {
+            let x = document.getElementById("fname");
+            x.value = x.value.toUpperCase();
+        }
+    </script>
+    <h2>HTML onchange Attribute</h2>
+    <p>Select a new car from the list.</p>
+
+    <select id="mySelect" onchange="myFunction()">
+        <option value="Audi">Audi
+        <option value="BMW">BMW
+        <option value="Mercedes">Mercedes
+        <option value="Volvo">Volvo
+    </select>
+
+    <p>When you select a new car, a function is triggered which outputs the value of the selected car.</p>
+
+    <p id="demo"></p>
+
+    <script>
+        function myFunction() {
+            let x = document.getElementById("mySelect").value;
+            document.getElementById("demo").innerHTML = "You selected: " + x;
+        }
+    </script>
+    <h2>HTML oncanplay Attribute</h2>
+    <audio oncanplay="myFunction()">
+        <source src="C:\Users\Admin\Desktop\Python\Homeworks\Audio\Giulio Cercato - Dopamine.mp3" type="audio/mpeg">
+    </audio>
+    <script>
+        function myFunction() {
+            document.getElementById("demo").innerHTML = "Can start playing the audio";
+        }
+    </script>
+    <h2>HTML oncanplaythrough Attribute</h2>
+    <audio oncanplaythrough="myFunction()">
+        <source src="C:\Users\Admin\Desktop\Python\Homeworks\Audio\Giulio Cercato - Dopamine.mp3" type="audio/mpeg">
+    </audio>
+    <script>
+        function myFunction() {
+            alert("Can play the audio without any buffering");
+        }
+    </script>
+    <h2>HTML onclick Attribute</h2>
+    <button onclick="myFunction()">Click me</button>
+
+    <p id="demo"></p>
+
+    <p>A function is triggered when the button is clicked. The function outputs some text in a p element with id="demo".
+    </p>
+
+    <script>
+        function myFunction() {
+            document.getElementById("demo").innerHTML = "Hello World";
+        }
+    </script>
+    <h2>HTML oncontextmenu Attribute</h2>
+    <style>
+        div {
+            background: yellow;
+            border: 1px solid black;
+            padding: 10px;
+        }
+    </style>
+
+    <body>
+
+        <div oncontextmenu="myFunction()" contextmenu="mymenu">
+            <p>Right-click inside this box to see the context menu!
+
+                <menu type="context" id="mymenu">
+                    <menuitem label="Refresh" onclick="window.location.reload();" icon="ico_reload.png">
+                    </menuitem>
+                    <menu label="Share on...">
+                        <menuitem label="Twitter" icon="ico_twitter.png"
+                            onclick="window.open('//twitter.com/intent/tweet?text=' + window.location.href);">
+                        </menuitem>
+                        <menuitem label="Facebook" icon="ico_facebook.png"
+                            onclick="window.open('//facebook.com/sharer/sharer.php?u=' + window.location.href);">
+                        </menuitem>
+                    </menu>
+                    <menuitem label="Email This Page" onclick="window.location='mailto:?body='+window.location.href;">
+                    </menuitem>
+                </menu>
+
+        </div>
+
+        <p><strong>Note:</strong> The contextmenu <strong>attribute</strong> only works in Firefox!</p>
+
+        <script>
+            function myFunction() {
+                alert("You right-clicked inside the div!");
+            }
+        </script>
+        <h2>HTML oncopy attribute</h2>
+        <input type="text" oncopy="myFunction()" value="Try to copy this text">
+
+        <p id="demo"></p>
+
+        <script>
+            function myFunction() {
+                document.getElementById("demo").innerHTML = "You copied text!"
+            }
+        </script>
+        <h2>HTML oncut attribute</h2>
+        <input type="text" oncut="myFunction()" value="Try to cut this text">
+
+        <p id="demo"></p>
+
+        <script>
+            function myFunction() {
+                document.getElementById("demo").innerHTML = "You cut text!";
+            }
+        </script>
+        <h2>HTML ondblclick attribute</h2>
+        <button ondblclick="myFunction()">Double-click me</button>
+
+        <p id="demo"></p>
+
+        <p>A function is triggered when the button is double-clicked. The function outputs some text in a p element with
+            id="demo".</p>
+
+        <script>
+            function myFunction() {
+                document.getElementById("demo").innerHTML = "Hello World";
+            }
+        </script>
+        <h2>HTML ondrag,ondrop,ondragover,ondragstart,ondragend attribute</h2>
+        <style>
+            .droptarget {
+                float: left;
+                width: 100px;
+                height: 35px;
+                margin: 15px;
+                padding: 10px;
+                border: 1px solid #aaaaaa;
+            }
+        </style>
+
+        <p>Drag the p element back and forth between the two rectangles:</p>
+
+        <div class="droptarget" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <p ondragstart="dragStart(event)" ondragend="dragEnd(event)" ondrag="dragging(event)" draggable="true"
+                id="dragtarget">Drag me!</p>
+        </div>
+
+        <div class="droptarget" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+
+        <p style="clear:both;" id="demo"></p>
+
+        <script>
+            function dragStart(event) {
+                event.dataTransfer.setData("Text", event.target.id);
+            }
+
+            function dragging(event) {
+                document.getElementById("demo").innerHTML = "The p element is being dragged";
+            }
+
+            function allowDrop(event) {
+                event.preventDefault();
+            }
+
+            function dragEnd(event) {
+                document.getElementById("demo").innerHTML = "Finished dragging the p element.";
+            }
+
+            function drop(event) {
+                event.preventDefault();
+                let data = event.dataTransfer.getData("Text");
+                event.target.appendChild(document.getElementById(data));
+                document.getElementById("demo").innerHTML = "The p element was dropped";
+            }
+        </script>
+        <h2>HTML ondragenter, ondragleave Attribute</h2>
+        <style>
+            .droptarget1 {
+                float: left;
+                width: 100px;
+                height: 35px;
+                margin: 15px;
+                margin-right: 100px;
+                padding: 10px;
+                border: 1px solid #aaaaaa;
+            }
+        </style>
+
+        <p>Drag the p element back and forth between the two rectangles:</p>
+
+        <div class="droptarget1" ondrop="drop(event)" ondragenter="dragEnter(event)" ondragleave="dragLeave(event)"
+            ondragover="allowDrop(event)">
+            <p ondragstart="dragStart(event)" draggable="true" id="dragtarget">Drag me!</p>
+        </div>
+
+        <div class="droptarget1" ondragenter="dragEnter(event)" ondragleave="dragLeave(event)" ondrop="drop(event)"
+            ondragover="allowDrop(event)"></div>
+
+        <p style="clear:both;" id="demo"></p>
+
+        <script>
+            function dragStart(event) {
+                event.dataTransfer.setData("Text", event.target.id);
+            }
+
+            function dragEnter(event) {
+                if (event.target.className == "droptarget1") {
+                    event.target.style.border = "3px dotted red";
+                    document.getElementById("demo").innerHTML = "Entered the dropzone";
+                }
+            }
+
+            function dragLeave(event) {
+                if (event.target.className == "droptarget1") {
+                    event.target.style.border = "";
+                    document.getElementById("demo").innerHTML = "Left the dropzone";
+                }
+            }
+
+            function allowDrop(event) {
+                event.preventDefault();
+            }
+
+            function drop(event) {
+                event.preventDefault();
+                let data = event.dataTransfer.getData("Text");
+                event.target.appendChild(document.getElementById(data));
+            }
+        </script>
+        <h2>HTML ondurationchange Attribute</h2>
+        <audio id="myAudio" controls ondurationchange="myFunction5(this)">
+            <source src="C:\Users\Admin\Desktop\Python\Homeworks\Audio\Giulio Cercato - Dopamine.mp3" type="audio/mpeg">
+        </audio>
+
+        <script>
+            function myFunction5(x) {
+                alert("The duration of this audioclip is : " + x.duration + " seconds");
+            }
+        </script>
+
+        <p>This example demonstrates how to use the "ondurationchange" attribute on an AUDIO element.</p>
+        <p><strong>Note:</strong> When the audio is loaded, the "ondurationchange" event will occur, it changes from
+            "NaN" to the actual duration of the audioclip.</p>
+    </body>
+    <h2>HTML onended Attribute</h2>
+    <audio id="myAudio" controls onended="myFunction4(this)">
+        <source src="C:\Users\Admin\Desktop\Python\Homeworks\Audio\Giulio Cercato - Dopamine.mp3" type="audio/mpeg">
+    </audio>
+
+    <script>
+        function myFunction4(x) {
+            alert("Thank you for listening");
+        }
+    </script>
+    <h2>HTML onfocus Attribute</h2>
+    <p>A function is triggered when one of the input fields get focus. The function changes the background-color of the
+        input field.</p>
+    First name: <input type="text" id="fname" onfocus="myFunction3(this.id)"><br>
+    Last name: <input type="text" id="lname" onfocus="myFunction3(this.id)">
+
+    <script>
+        function myFunction3(x) {
+            document.getElementById(x).style.background = "yellow";
+        }
+    </script>
+    <h2>HTML onhashchange Attribute</h2>
+
+    <body onhashchange="myFunction2()">
+
+        <p>Click the button to change the anchor part of the current URL to #part5</p>
+
+        <button onclick="changePart()">Try it</button>
+
+        <p id="demo"></p>
+
+        <script>
+            // Using the location.hash property to change the anchor part
+            function changePart() {
+                location.hash = "part5";
+                let x = "The anchor part is now: " + location.hash;
+                document.getElementById("demo").innerHTML = x;
+            }
+
+            // Alert some text if there has been changes to the anchor part
+            function myFunction2() {
+                alert("The anchor part has changed!");
+            }
+        </script>
+
+    </body>
+    <h2>HTML oninput Attribute</h2>
+    <p>Write something in the text field to trigger a function.</p>
+
+    <input type="text" id="myInput" oninput="myFunction1()">
+
+    <p id="demo"></p>
+
+    <script>
+        function myFunction1() {
+            let x = document.getElementById("myInput").value;
+            document.getElementById("demo").innerHTML = "You wrote: " + x;
+        }
+    </script>
+    <h2>HTML oninvalid attribute</h2>
+    <form method="get">
+        Name: <input type="text" oninvalid="alert('You must fill out the form!');" name="fname" required>
+        <input type="submit" value="Submit">
+    </form>
+
+    <p>If you click submit, without filling out the text field, an alert message will occur.</p>
+
+    <p><strong>Note:</strong> The oninvalid event is not supported in Safari.</p>
+    <h2>HTML onkeydown attribute</h2>
+    <p>A function is triggered when the user is pressing a key in the input field.</p>
+
+    <input type="text" onkeydown="myFunction10()">
+
+    <script>
+        function myFunction10() {
+            alert("You pressed a key inside the input field");
+        }
+    </script>
+    <p>A function is triggered when the user is pressing a key in the input field.</p>
+    <h2>HTML onkeypress attribute</h2>
+    <input type="text" onkeypress="myFunction11()">
+
+    <script>
+        function myFunction12() {
+            alert("You pressed a key inside the input field");
+        }
+    </script>
+    <h2>HTML onkeyup attribute</h2>
+    <p>A function is triggered when the user releases a key in the input field. The function transforms the character to
+        upper case.</p>
+    Enter your name: <input type="text" id="fname" onkeyup="myFunction13()">
+
+    <script>
+        function myFunction13() {
+            let x = document.getElementById("fname");
+            x.value = x.value.toUpperCase();
+        }
+    </script>
+    <h2>HTML onload attribute</h2>
+    <script>
+        function myFunction0() {
+            alert("Page is loaded");
+        }
+    </script>
+
+    <body onload="myFunction0()">
+        <h1>Hello World!</h1>
+    </body>
+    <h2>HTML onloadeddata, onloadedmetadata, onloadstart attribute</h2>
+    <audio id="myAudio" controls onloadeddata="myFunction01(this)" onloadedmetadata="myFunction02(this)"
+        onloadstart="myFunction03(this)">
+        <source src="C:\Users\Admin\Desktop\Python\Homeworks\Audio\Giulio Cercato - Dopamine.mp3" type="audio/mpeg">
+    </audio>
+
+    <script>
+        function myFunction01(x) {
+            alert("Data is loaded");
+        }
+
+        function myFunction02() {
+            alert("Meta data is loaded");
+        }
+        function myFunction03() {
+            alert("The media file has started loading");
+        }
+    </script>
+    <h2>HTML onmousedown, onmouseup attribute</h2>
+    <p id="p1" onmousedown="mouseDown()" onmouseup="mouseUp()">
+        Click the text! The mouseDown() function is triggered when the mouse button is pressed down over this paragraph.
+        The function sets the color of the text to red. The mouseUp() function is triggered when the mouse button is
+        released. The mouseUp() function sets the color of the text to green.
+    </p>
+
+    <script>
+        function mouseDown() {
+            document.getElementById("p1").style.color = "red";
+        }
+
+        function mouseUp() {
+            document.getElementById("p1").style.color = "green";
+        }
+    </script>
+    <h2>HTML onmousemove, onmouseout, onmouseover attribute</h2>
+    <img onmousemove="bigImg(this)" onmouseout="normalImg(this)" onmouseover="bigImg(this)" border="0"
+        src="C:\Users\Admin\Desktop\Python\Homeworks\Nkarner\img_pink_flowers.jpg" alt="Smiley" width="32" height="32">
+
+    <script>
+        function bigImg(x) {
+            x.style.height = "64px";
+            x.style.width = "64px";
+        }
+
+        function normalImg(x) {
+            x.style.height = "32px";
+            x.style.width = "32px";
+        }
+    </script>
+    <h2>HTML onmousewheel attribute</h2>
+    <style>
+        #myDIV {
+            border: 1px solid black;
+        }
+    </style>
+
+    <div id="myDIV" onmousewheel="myFunction()">This example demonstrates how to assign an "onmousewheel" event to a DIV
+        element. Roll the mouse wheel over me - either up or down!</div>
+
+    <p>A function is triggered when you roll the mouse wheel over div. The function sets the font-size of div to 35
+        pixels.</p>
+
+    <script>
+        function myFunction101() {
+            document.getElementById("myDIV").style.fontSize = "35px";
+        }
+    </script>
+    <h2>HTML onpageshow attribute</h2>
+
+    <body onpageshow="myFunction00()">
+
+        <h1>Hello World!</h1>
+
+        <script>
+            function myFunction00() {
+                alert("Welcome!");
+            }
+        </script>
+    </body>
+    <h2>HTML onpaste attribute</h2>
+    <input type="text" onpaste="myFunction001()" value="Try to paste something in here" size="40">
+
+    <p id="demo"></p>
+
+    <script>
+        function myFunction001() {
+            document.getElementById("demo").innerHTML = "You pasted text!";
+        }
+    </script>
+    <h2>HTML onpause attribute</h2>
+    <audio controls onpause="mypause()">
+        <source src="C:\Users\Admin\Desktop\Python\Homeworks\Audio\Giulio Cercato - Dopamine.mp3" type="audio/mpeg">
+    </audio>
+    <script>
+        function mypause() {
+            alert("The audio file has been paused");
+        }
+    </script>
+    <h2>HTML onplay, onplaying, onprogress attribute</h2>
+    <audio controls onplay="myplay()" onplaying="onplaying()" onprogress="myprogress()">
+        <source src="C:\Users\Admin\Desktop\Python\Homeworks\Audio\Giulio Cercato - Dopamine.mp3" type="audio/mpeg">
+    </audio>
+    <script>
+        function myplay() {
+            alert("The audio file is playing");
+        }
+        function myplay() {
+            alert("The audio file has started playing");
+        }
+        function progress() {
+            alert("The audio file has started playing");
+        }
+    </script>
+    <h2>HTML onratechange attribute</h2>
+    <audio controls onratechange="myFunction112()">
+        <source src="C:\Users\Admin\Desktop\Python\Homeworks\Audio\Giulio Cercato - Dopamine.mp3" type="audio/mpeg">
+    </audio>
+    <p id="demo">Change the speed of the audio</p>
+    <input type="range" min="0.5" max="3" step="0.1" value="1" oninput="changeRate(this)">
+
+    <script>
+        function myFunction112() {
+            document.getElementById("demo").innerHTML = "The audio's speed is " + document.getElementById("myAudio").playbackRate;
+        }
+
+        function changeRate(obj) {
+            document.getElementById("myAudio").playbackRate = obj.value;
+        }
+    </script>
+
+    <p>This example demonstrates how to use the "onratechange" attribute on an AUDIO element.</p>
+    <h2>HTML onreset attribute</h2>
+    <p>When you reset the form, a function is triggered which alerts some text.</p>
+
+    <form onreset="myFunction000()">
+        Enter name: <input type="text">
+        <input type="reset">
+    </form>
+
+    <script>
+        function myFunction000() {
+            alert("The form was reset");
+        }
+    </script>
+    <h2>HTML onscroll attribute</h2>
+    <style>
+        #myDIV1 {
+            border: 1px solid black;
+            width: 200px;
+            height: 100px;
+            overflow: scroll;
+        }
+    </style>
+    <p>Try the scrollbar in div.</p>
+
+    <div id="myDIV1" onscroll="myFunction111()">In my younger and more vulnerable years my father gave me some advice
+        that I've been turning over in my mind ever since.
+        <br><br>
+        'Whenever you feel like criticizing anyone,' he told me, just remember that all the people in this world
+        haven't had the advantages that you've had.'
+    </div>
+
+    <script>
+        function myFunction111() {
+            document.getElementById("myDIV1").style.color = "red";
+        }
+    </script>
+
+    <p>A function is triggered when you scroll in div. The function sets the color of the text in div to red.</p>
+    <h2>HTML onsearch attribute</h2>
+    <p>Write something in the search field and press "ENTER".</p>
+
+    <input type="search" id="myInput" onsearch="myFunction113()">
+
+    <p><strong>Note:</strong> The onsearch event is not supported in Internet Explorer, Firefox or Opera 12 and earlier
+        versions.</p>
+
+    <p id="demo"></p>
+
+    <script>
+        function myFunction113() {
+            let x = document.getElementById("myInput");
+            document.getElementById("demo").innerHTML = "You are searching for: " + x.value;
+        }
+    </script>
+    <h2>HTML onseeked attribute</h2>
+    <p id="demo">Move to a new position in the audio:</p>
+
+    <audio id="myAudio" controls onseeked="myFunction002()">
+        <source src="C:\Users\Admin\Desktop\Python\Homeworks\Audio\Giulio Cercato - Dopamine.mp3" type="audio/mpeg">
+    </audio>
+
+    <script>
+        function myFunction002() {
+            document.getElementById("demo").innerHTML = "You moved to position " + document.getElementById("myAudio").currentTime;
+        }
+    </script>
+
+    <p>This example demonstrates how to use the "onseeked" attribute on an AUDIO element.</p>
+    <h2>HTML onselect attribute</h2>
+    Some text: <input type="text" value="Select me!!" onselect="myFunction()">
+
+    <p>The function myFunction() is triggered when some text is selected in the input field. The function shows a
+        message.</p>
+
+    <script>
+        function myFunction() {
+            alert("You have selected some text!");
+        }
+    </script>
+    <p>When you submit the form, a function is triggered which alerts some text.</p>
+    <h2>HTML onsubmit attribute</h2>
+    <form onsubmit="myFunction102()">
+        Enter name: <input type="text" name="fname">
+        <input type="submit" value="Submit">
+    </form>
+
+    <script>
+        function myFunction102() {
+            alert("The form was submitted");
+        }
+    </script>
+    <h2>HTML ontimeupdate attribute</h2>
+    <p id="demo">Move to a new position in the audio:</p>
+
+    <audio id="myAudio" controls ontimeupdate="mytime()">
+        <source src="C:\Users\Admin\Desktop\Python\Homeworks\Audio\Giulio Cercato - Dopamine.mp3" type="audio/mpeg">
+    </audio>
+
+    <script>
+        function mytime() {
+            document.getElementById("demo").innerHTML = "You moved to position " + document.getElementById("myAudio").currentTime;
+        }
+    </script>
+
+    <p>This example demonstrates how to use the "ontimeupdate" attribute on an AUDIO element.</p>
+    <h2>HTML ontoggle attribute</h2>
+    <p>Open the details.</p>
+
+    <details ontoggle="mytoggle()">
+        <summary>Copyright 1999-2014.</summary>
+        <p> - by Refsnes Data. All Rights Reserved.</p>
+        <p>All content and graphics on this web site are the property of the company Refsnes Data.</p>
+    </details>
+
+    <script>
+        function mytoggle() {
+            alert("The ontoggle event occured");
+        }
+    </script>
+    <h2>HTML open attribute</h2>
+    <p>Open the details.</p>
+
+    <details open>
+        <summary>Copyright 1999-2014.</summary>
+        <p> - by Refsnes Data. All Rights Reserved.</p>
+        <p>All content and graphics on this web site are the property of the company Refsnes Data.</p>
+    </details>
+    <h2>HTML optimum attribute</h2>
+    <meter value="0.3" high="0.9" low="0.1" optimum="0.5"></meter>
+    <h2>HTML pattern attribute</h2>
+
+    <form>
+        <label for="country_code">Country code:</label>
+        <input type="text" id="country_code" name="country_code" pattern="[A-Za-z]{3}"
+            title="Three letter country code"><br><br>
+        <input type="submit">
+    </form>
+
+    <p><strong>Note:</strong> The pattern attribute of the input tag is not supported in Safari 10 (or earlier).</p>
+    <h2>HTML placeholder attribute</h2>
+    <form>
+        <label for="phone">Enter a phone number:</label><br><br>
+        <input type="tel" id="phone" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br><br>
+        <small>Format: 123-45-678</small><br><br>
+        <input type="submit">
+    </form>
+    <h2>HTML poster attribute</h2>
+    <video width="320" height="240" controls
+        poster="C:\Users\Admin\Desktop\Python\Homeworks\Nkarner\img_white_flower.jpg">
+        <source src="C:\Users\Admin\Desktop\Python\Homeworks\Video\friday.mp4">
+    </video>
+    <h2>HTML preload, src attribute</h2>
+    <video controls preload="none">
+        <source src="C:\Users\Admin\Desktop\Python\Homeworks\Video\friday.mp4">
+    </video>
+    <h2>HTML readonly attribute</h2>
+    <form>
+        <label for="fname">First name:</label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="country">Country:</label>
+        <input type="text" id="country" name="country" value="Norway" readonly><br><br>
+        <input type="submit" value="Submit">
+    </form>
+    <h2>HTML required attribute</h2>
+    <form>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <input type="submit">
+    </form>
+    <h2>HTML reversed attribute</h2>
+    <ol reversed>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+    <h2>HTML rowspan attribute</h2>
+    <table>
+        <tr>
+            <th>Month</th>
+            <th>Savings</th>
+            <th>Savings for holiday!</th>
+        </tr>
+        <tr>
+            <td>January</td>
+            <td>$100</td>
+            <td rowspan="2">$50</td>
+        </tr>
+        <tr>
+            <td>February</td>
+            <td>$80</td>
+        </tr>
+    </table>
+    <h2>HTML scope attribute</h2>
+    <table>
+        <tr>
+            <th></th>
+            <th scope="col">Month</th>
+            <th scope="col">Savings</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>January</td>
+            <td>$100</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>February</td>
+            <td>$80</td>
+        </tr>
+    </table>
+    <h2>HTML selected attribute</h2>
+    <select>
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="vw">VW</option>
+        <option value="audi" selected>Audi</option>
+    </select>
+    <h2>HTML size attribute</h2>
+    <form action="/action_page.php">
+        Email: <input type="text" name="email" size="35"><br>
+        PIN: <input type="text" name="pin" maxlength="4" size="4"><br>
+        <input type="submit" value="Submit">
+    </form>
+    <h2>HTML span attribute</h2>
+    <table>
+        <colgroup>
+            <col span="2" style="background-color:red">
+            <col style="background-color:yellow">
+        </colgroup>
+        <tr>
+            <th>ISBN</th>
+            <th>Title</th>
+            <th>Price</th>
+        </tr>
+        <tr>
+            <td>3476896</td>
+            <td>My first HTML</td>
+            <td>$53</td>
+        </tr>
+    </table>
+    <h2>HTML spellcheck attribute</h2>
+    <p contenteditable="true" spellcheck="true">This is a praggagraph. It is editable. Try to change the text.</p>
+    <h2>HTML srcset attribute</h2>
+    <picture>
+        <source media="(min-width:650px)" srcset="C:\Users\Admin\Desktop\Python\Homeworks\Nkarner\img_pink_flowers.jpg">
+        <source media="(min-width:465px)" srcset="C:\Users\Admin\Desktop\Python\Homeworks\Nkarner\img_white_flower.jpg">
+        <img src="C:\Users\Admin\Desktop\Python\Homeworks\Nkarner\flowers.jpg" alt="Flowers" style="width:auto;">
+    </picture>
+    <h2>HTML start, type attribute</h2>
+    <ol type="I" start="50">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+    </ol>
+    <h2>HTML step attribute</h2>
+    <form>
+        <label for="points">Points:</label>
+        <input type="number" id="points" name="points" step="3">
+        <input type="submit">
+    </form>
+    <h2>HTML style attribute</h2>
+    <h3 style="color:blue;text-align:center">This is a header</h3>
+    <h2>HTML tabindex attribute</h2>
+    <div tabindex="1">W3Schools</div><br>
+    <div tabindex="3">Google</div><br>
+    <div tabindex="2">Microsoft</div>
+
+    <script>
+        // At start, set focus on the first div
+        document.getElementsByTagName('div')[0].focus();
+    </script>
+
+    <p tabindex="4"><b>Note:</b> Try navigating the elements by using the "Tab" button on your keyboard.</p>
+    <h2>HTML target attribute</h2>
+    <a href="https://www.w3schools.com" target="_blank">Visit W3Schools</a>
+    <h2>HTML title attribute</h2>
+    <p><abbr title="World Health Organization">WHO</abbr> was founded in 1948.</p>
+    <h2>HTML value attribute</h2>
+    <form>
+        Choose your favorite subject:
+        <button name="subject" type="submit" value="fav_HTML">HTML</button>
+        <button name="subject" type="submit" value="fav_CSS">CSS</button>
+    </form>
+    <h2>HTML wrap attribute</h2>
+    <textarea rows="2" cols="20" wrap="hard">
+        At W3Schools you will find free Web-building tutorials.
+    </textarea>
+
+</body>
+
+</html>

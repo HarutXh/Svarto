@@ -1,0 +1,264 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-color: #4EF2F2;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    margin-right: 15%;
+}
+
+.ul1 li {
+    display: inline-block;
+    margin: 0 20px;
+    font-size: 18px;
+}
+
+nav button.header {
+    background-color: black;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+section {
+    width: 100%;
+    background-color: #4EF2F2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 110px;
+}
+
+div.about {
+    padding-right: 120px;
+    padding-left: 120px;
+}
+
+.h2 {
+    font-size: 56px;
+    padding-bottom: 56px;
+}
+
+.p1 {
+    font-size: 20px;
+    padding-bottom: 52px;
+}
+
+button.aboutbutton {
+    width: 200px;
+    height: 60px;
+    background-color: black;
+    color: white;
+    padding: 18px 24px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.ph2 {
+    font-size: 56px;
+    text-align: center;
+    margin-top: 132px;
+    margin-bottom: 69px;
+}
+
+.project1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio {
+    margin-bottom: 52px;
+}
+
+.img1 {
+    width: 100%;
+    margin-bottom: 34px;
+    padding-right: 30px;
+}
+
+.port1 {
+    font-weight: lighter;
+    margin-bottom: 45px;
+}
+
+.img2 {
+    width: 100%;
+    margin-bottom: 34px;
+    padding-right: 30px;
+}
+
+.port2 {
+    font-weight: lighter;
+    margin-bottom: 45px;
+}
+
+.img3 {
+    width: 100%;
+    margin-bottom: 34px;
+    padding-right: 30px;
+}
+
+.port3 {
+    font-weight: lighter;
+    margin-bottom: 45px;
+}
+
+.pp1 {
+    font-size: 14px;
+}
+
+.pp2 {
+    font-size: 14px;
+}
+
+.pp3 {
+    font-size: 14px;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 17%;
+    margin-right: 17%;
+    margin-top: 120px;
+    margin-bottom: 75px;
+}
+
+.signup2 {
+    width: 200px;
+    height: 48px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    padding: 13px 24px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.signup3 {
+    width: 200px;
+    height: 48px;
+    background-color: transparent;
+    color: black;
+    align-items: center;
+    padding: 13px 24px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.signup4 {
+    width: 350px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    padding: 12.5px 24px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.submit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-item {
+    padding: 0 25px;
+}
+
+.footer {
+    width: 100%;
+    background-color: #757373;
+}
+
+.footer1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 15%;
+    padding-left: 15%;
+    padding: 120px;
+}
+
+@media only screen and (max-width: 640px) {
+    .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .portfolio {
+        text-align: center;
+    }
+
+    .main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    section {
+        display: block;
+    }
+
+    .signup {
+        display: block;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .signup3 {
+        margin-bottom: 50px;
+    }
+
+    .cont {
+        margin-bottom: 20px;
+    }
+
+    .signup2 {
+        margin-bottom: 20px;
+    }
+
+    .project1 {
+        display: block;
+    }
+
+    .footer1 {
+        display: block;
+        text-align: center;
+    }
+
+    .copy {
+        margin-bottom: 50px;
+    }
+}
